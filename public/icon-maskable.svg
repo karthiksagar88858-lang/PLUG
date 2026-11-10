@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="tealGradM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2A2E"/>
+      <stop offset="100%" stop-color="#0B2023"/>
+    </linearGradient>
+    <linearGradient id="goldGradM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+    <filter id="glowM" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Full-bleed background for maskable -->
+  <rect width="512" height="512" fill="url(#tealGradM)"/>
+
+  <!-- Content scaled and centered within 80% safe zone -->
+  <g transform="translate(51.2, 51.2) scale(0.8)">
+    <!-- Plug Symbol -->
+    <g filter="url(#glowM)">
+      <rect x="212" y="82" width="26" height="56" rx="8" fill="url(#goldGradM)"/>
+      <rect x="274" y="82" width="26" height="56" rx="8" fill="url(#goldGradM)"/>
+
+      <path d="M 180 134 C 180 128, 185 124, 192 124 L 320 124 C 327 124, 332 128, 332 134 L 332 186 C 332 222, 304 250, 272 254 L 272 284 C 272 290, 268 294, 262 294 L 250 294 C 244 294, 240 290, 240 284 L 240 254 C 208 250, 180 222, 180 186 Z" fill="url(#goldGradM)"/>
+      <polygon points="260,144 242,184 256,184 250,224 274,178 260,178" fill="#0F2A2E"/>
+    </g>
+
+    <!-- Wordmark "PLUG" -->
+    <g fill="#FFFFFF" filter="url(#glowM)">
+      <path d="M 96 320 L 96 424 L 126 424 L 126 384 L 148 384 C 172 384, 188 372, 188 352 C 188 332, 172 320, 148 320 Z M 126 342 L 146 342 C 158 342, 164 346, 164 352 C 164 358, 158 362, 146 362 L 126 362 Z" fill="#FFFFFF"/>
+      <path d="M 204 320 L 204 424 L 256 424 L 256 400 L 234 400 L 234 320 Z" fill="#FFFFFF"/>
+      <path d="M 272 320 L 272 386 C 272 410, 288 426, 312 426 C 336 426, 352 410, 352 386 L 352 320 L 324 320 L 324 384 C 324 396, 318 402, 312 402 C 306 402, 300 396, 300 384 L 300 320 Z" fill="#FFFFFF"/>
+      <path d="M 406 338 C 394 326, 380 320, 362 320 C 334 320, 314 342, 314 372 C 314 402, 334 426, 364 426 C 392 426, 410 408, 412 380 L 362 380 L 362 402 L 386 402 C 382 407, 374 410, 364 410 C 348 410, 338 396, 338 372 C 338 348, 348 336, 364 336 C 374 336, 382 340, 388 346 Z" fill="#FBBF24"/>
+    </g>
+
+    <rect x="170" y="446" width="172" height="26" rx="6" fill="#FBBF24" fill-opacity="0.15" stroke="#FBBF24" stroke-width="1.5"/>
+    <text x="256" y="464" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#FBBF24" text-anchor="middle" letter-spacing="3.5">LPU CAMPUS</text>
+  </g>
+</svg>

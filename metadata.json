@@ -1,0 +1,6 @@
+{
+  "name": "PLUG - LPU Campus Peer Exchange & Rentals",
+  "description": "LPU campus marketplace for buying, selling, and micro-renting student essentials with UMS verification and high-thinking AI deal advisory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
